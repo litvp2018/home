@@ -1,6 +1,6 @@
 /* THIS IS THE SECOND CSS WHICH WAS MADE FOR MY FINAL WEBSITE PROJECT (not the rough one). 
 Do not mix this up with the other one, future Trevor. */
-/* THIS REVISION v.4.04 FEBRUARY 21st */
+/* THIS REVISION v.4.05 FEBRUARY 22nd */
 
 
 
@@ -99,6 +99,9 @@ Do not mix this up with the other one, future Trevor. */
 		   margin-bottom: 34px;
 		   margin-top: 34px;
   		   padding: 0px;
+		   filter: drop-shadow(4px 4px 8px black);
+		   /* for most browsers (Firefox, Chrome, Edge, ...)*/
+  		   -webkit-filter: drop-shadow(4px 4px 10px black);
 		   /* for images without borders */
 		}
 
@@ -109,6 +112,9 @@ Do not mix this up with the other one, future Trevor. */
 		   margin-bottom: 12px;
 		   margin-top: 12px;
   		   padding: 0px;
+		   filter: drop-shadow(4px 4px 8px black);
+		   /* for most browsers (Firefox, Chrome, Edge, ...)*/
+  		   -webkit-filter: drop-shadow(4px 4px 10px black);
 		   border: 8px solid rgba(16, 20, 42, 0.6)
 		}
 
