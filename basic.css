@@ -1,6 +1,6 @@
 /* THIS IS THE SECOND CSS WHICH WAS MADE FOR MY FINAL WEBSITE PROJECT (not the rough one). 
 Do not mix this up with the other one, future Trevor. */
-/* THIS REVISION v.4.05 FEBRUARY 22nd */
+/* THIS REVISION v.4.09 FEBRUARY 24th */
 
 
 
@@ -29,6 +29,15 @@ Do not mix this up with the other one, future Trevor. */
 		   /* for most browsers (Firefox, Chrome, Edge, ...)*/
   		   -webkit-filter: drop-shadow(4px 4px 8px black);
 		   /* for Safari users */
+		}
+
+		#PageSelect {
+		   text-decoration: none;
+		   background-color: rgba(32, 22, 61, 0.0);
+		   margin-bottom: 80px;
+		   margin-top: 5px;
+		   font-size: 22pt;
+		   color: rgb(237 , 237, 237);
 		}
 
 		ol, ul {
@@ -66,7 +75,7 @@ Do not mix this up with the other one, future Trevor. */
 		   text-align: center;
 		   margin-left: 10px;
 		   margin-right: 10px;
-		   margin-bottom: 80px;
+		   margin-bottom: 5px;
 		   margin-top: 80px;
 		   text-shadow:5px 5px 5px black;
 		}
