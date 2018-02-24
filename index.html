@@ -1,7 +1,7 @@
 <!-- THIS IS THE SECOND HTML FILE THAT I HAVE MADE FOR MY FINAL WEBSITE PROJECT (not the rough one). 
 Do NOT mix this up with the other one, future Trevor. -->
 
-<!-- THIS REVISION: v.4.05 FEBRUARY 22nd -->
+<!-- THIS REVISION: v.4.09 FEBRUARY 25th -->
 
 
 <!doctype html>
@@ -15,6 +15,8 @@ Do NOT mix this up with the other one, future Trevor. -->
 
    <body>
        		<h1 id= "TopTitleText"> Trevor&rsquo;s Website on How to Build a Desktop PC: Main Page </h1>
+		<p id= "PageSelect"> <a href = "index.html">Main Page</a> | <a href = "Components.html">PC Components</a> | 
+		    <a href = "Citations.html">Citations</a> </p>
 		<h2 id= "TableofContents"> Table Of Contents </h2>
 		<ol>
 		    <li> <a href = "#One">Introduction</a> </li>
@@ -25,11 +27,9 @@ Do NOT mix this up with the other one, future Trevor. -->
 		    <li> <a href = "#Four"> 
 		    Installation of the Motherboard and Storage (HDDs and SSDs)</a> </li>
 		    <li> <a href = "#Five">
-		    GPU and Expansion Cards</a> </li>
+		    Installation of the GPU </a> </li>
 		    <li> <a href = "#Six">
-		    Cable Management and Extra Steps</a> </li>
-		    <li> <a href = "#Seven">
-		    Maintenence and Final Words</a> </li>	
+		    Final Steps</a> </li>
 		</ol>
 		<h2 id= "One"> Introduction </h2>
 		<p id= SoYouThink> So you think you want to build a PC? </p>
@@ -95,14 +95,63 @@ Do NOT mix this up with the other one, future Trevor. -->
 		    "Photo of an Intel i5 8400 CPU in a LGA 1151 socket, with the metal cover latched, securing the CPU." /> </p>
 		<p> <img class= "bordered" src = "PCImages/SocketFour.jpg" width = "440" height = "560" alt = 
 		    "Photo of an Intel stock cooler in detail, correctly installed on an MSI Z370 Motherboard." /> </p>
+		<p> When installing the RAM, make sure to install the sticks in pairs. Usually, the RAM slots on the motherboard will be colour coded for this. In my
+		    case, two of the slots are black and the other two are red. Although it depends on the motherboard, (check the manual) in my case, I need to install
+		    my RAM in the two red slots first. Before you install the sticks, make sure to pull back the tabs at either end of the slots. Afterwards, take the
+		    stick and push it into the slot, going in at a slight angle so that one end will go in first, before the other. It will take a bit of force but you
+		    should hear a click, indicating that the tab has locked into place with the stick of RAM. You can then push the other end of the stick into place, 
+		    making sure the tab you pulled down locks. Repeat these steps for the other stick(s) of RAM.
+		<p> <img class= "bordered" src = "PCImages/RAMOne.jpg" width = "560" height = "440" alt = 
+		    "Photo of the RAM slots on a MSI Z370 motherboard, one slot taken by a stick of RAM. The tabs on one other slot have been pulled back." /> </p>
 		<h2 id= "Four"> Installation of the Motherboard and Storage (HDDs and SSDs) </h2>
-		<p> info/images here </p>
-		<h2 id= "Five"> GPU and expansion cards </h2>
-		<p> info/images here </p>
-		<h2 id= "Six"> Cable Management and Extra Steps </h2>
-		<p> info/images here </p>
-		<h2 id= "Seven"> Maintenence and Final Words </h2>
-		<p> info/images here </p>
+		<p> Now that you have installed both the CPU and the RAM, we can install the motherboard to the case. Start by attaching the IO shield to the case.
+		    The IO shield will come with your motherboard; it's a metal sheet that has holes and labels for the ports at the back of the motherboard. When you
+		    are snapping it into place from the inside of the case, make sure you don't cut yourself or bend the small metal tabs protruding from the shield.
+		    Now you can install the motherboard standoffs. These are small metal cylinders that are screwed into the case, lifting the motherboard up by a few
+		    millimeters from the side of the case. This is so that the motherboard doesn't short out on any pieces of metal it shouldn't be touching.
+		<p> <img class= "bordered" src = "PCImages/Standoff.jpg" width = "560" height = "440" alt = 
+		    "Photo of a single motherboard standoff that has been installed to the case." /> </p>
+		<p> After all the standoffs have been installed to the case, the motherboard can be screwed onto the standoffs. Afterwards, you can connect the 
+		    power cables to the motherboard, which includes the 24-pin motherboard cable and the 8-pin CPU cable. Other cables such as the front panel
+		    I/O cables can also be connected. Make sure you don't forget to wire the power button so that you can turn on your PC when you are finished. </p>
+		<p> <img class= "bordered" src = "PCImages/PreparedMotherboard.jpg" width = "500" height = "660" alt = 
+		    "Photo of a MSI Z370 motherboard, installed in a case, with several ports labelled." />Note: your motherboard may have more or less ports/slots.
+		    Consult the manual that came with your motherboard to find out specific details and locations of the ports/slots. </p>
+		<p> The two most main types of PC storage options are hard disk drives (HDDs) and solid state drives (SSDs). Another name for a hard disk drive is
+		    hard drive, or hard disk. In terms of installation, the steps are almost identical for both HDDs and SSDs. Desktop HDDs are usually 3.5 inches wide
+		    whereas SDDs in general are 2.5 inches wide. The screw size and placement of the screw holes will be slightly different, but they both use 
+		    four screws in total for mounting.
+		<p> <img class= "bordered" src = "PCImages/Storage.jpg" width = "665" height = "560" alt = 
+		    "Photo of the inside of a PC case, showing both a HDD and an SSD." /> I chose to have both an SSD and a HDD in my PC build. Note how the cables
+		    are properly organized inside the case. (Cable management should be practiced if you want to do that extra step to make things a bit nicer) </p>
+		<p> The HDD/SDD can be screwed to the case with four screws; then you can plug in the SATA power cables. (The ones that are connected to the PSU.)
+		    The final step is to use a SATA data cable to connect the HDD/SDD to the motherboard's SATA ports.
+		<h2 id= "Five"> Installation of the GPU </h2>
+		<p> The GPU usually is installed in the form of a graphics card. This component is connected to the motherboard through a PCIE slot. Most motherboards/
+		    CPUs come with integrated graphics, but if you want to be playing newer games at high frame rates, you will need a graphics card. To install a
+		    graphics card, begin by taking off the PCIe slot covers/shields located at the back of the case.</p>
+		<p> <img class= "bordered" src = "PCImages/PCIEShields.jpg" width = "440" height = "560" alt = 
+		    "Photo of the expansion slot covers/shields in a PC case, with two of them removed." /> Above: Two shields have been removed for the graphics card
+		    that I will be installing. Some graphics cards may only need to have one shield removed. </p> 
+		<p> The PCIe slot has a single tab at the end, similar to the tabs on a RAM slot. This tab need to be pulled back before the graphics card is inserted.
+		    When you insert the graphics card, make sure the tab clicks back into place, locking the graphics card to the slot. The thumbscrews from the PCIe
+		    shields will also need to be screwed back, adding another layer of security for the graphics card. (See photo below.) </p>
+		<p> <img class= "bordered" src = "PCImages/SecuredGPUTwo.jpg" width = "440" height = "560" alt = 
+		    "Photo of a graphics card that has two thumbscrews securing it to the PC's case." /> </p> 
+		<p> Some graphics cards will need a 6-pin power cable to function. (This includes the one that I chose for my build.) Most PSUs have this cable, which
+		    can be plugged in like you would with the 8-pin CPU power cable.
+		<h2 id= "Six"> Final Steps </h2>
+		<p> After you have installed all the PC components and have connected all the necessary power and data cables, you can turn your PC on for the very
+		    first time. You will need to go to something called the BIOS. Upon pressing the power button, you need to repeatedly press a key to access the BIOS.
+		    consult your motherboard's manual for which key to press. If you didn't make it to the BIOS the first try, you can safely shut down the PC by holding
+		    the power button. Once you are in the BIOS, you can check to see if your motherboard recognizes all the components that have been installed. This
+		    includes the RAM, storage (HDDs and SSDs) and the graphics card. If a component is not showing up, check your cables and try again. If everyhting
+		    does show up, you can reboot and install Windows or any other OS of your choice. Once windows has been installed on your PC, make sure to
+		    download and install all the latest drivers, especially for your graphics card. </p>
+		<p> Once these final steps are completed, reboot your PC. Congratulations! You can now start using your brand new PC. Make sure you have an
+		    Antivirus program (I highly suggest Malwarebytes) installed and you everything should be good.
+		<p> <img class= "bordered" src = "PCImages/Complete.jpg" width = "590" height = "440" alt = 
+		    "Photo of my completed PC Build" />Thanks for reading!</p> 
 		<p> Return to the <a href = "#TopTitleText">top</a> of the page. </p>
 	   	<p id= "Copyright"> &copy; Trevor Li 2018, all rights reserved. </p>
 	   	<a href="https://validator.w3.org/check?uri=https://litvp2018.github.io/home/">
