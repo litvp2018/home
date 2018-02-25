@@ -28,7 +28,7 @@ Do not mix this up with the other one, future Trevor. */
 		   filter: drop-shadow(4px 4px 8px black);
 		   /* for most browsers (Firefox, Chrome, Edge, ...)*/
   		   -webkit-filter: drop-shadow(4px 4px 8px black);
-		   /* for Safari users */
+		   /* for older browsers (e.g. Safari <6.0)*/
 		}
 
 		ol, ul {
@@ -48,7 +48,7 @@ Do not mix this up with the other one, future Trevor. */
 		   filter: drop-shadow(4px 4px 8px black);
 		   /* for most browsers (Firefox, Chrome, Edge, ...)*/
   		   -webkit-filter: drop-shadow(4px 4px 8px black);
-		   /* for Safari users */
+		   /* for older browsers (e.g. Safari <6.0)*/
 		}
 
 		h1 {
